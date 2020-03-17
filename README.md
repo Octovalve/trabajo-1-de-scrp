@@ -17,3 +17,4 @@ Que tiene el alpha
   
 - trampas en el esenario
 - tienda
+- 2 personajes (seleccionables)
