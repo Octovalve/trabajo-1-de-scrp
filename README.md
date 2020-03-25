@@ -9,7 +9,10 @@ Que tiene el alpha:
 - muerte
 - drops de enemigos(monedas)
 - bictoria
+- derrota
 - 2 pisos (caminos a la meta)
 - animaciones
 - efectos 
 - regeneracion de salur (pocion)
+- atajos (barias soluciones)
+- trampas(chusos en el suelo)
