@@ -1,4 +1,5 @@
 # trabajo-1-de-scrp
+no me deja montar el prollecto en la carpeta sin comprimirlo (Por lo cual lo monto comprimido)
 Repositorio de un proyecto de dungeon plataforma
 Qué tiene el alfa:
 - Enemy
