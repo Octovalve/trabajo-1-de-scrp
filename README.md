@@ -1,5 +1,5 @@
-# trabajo-1-de-scrp
-no me deja montar el prollecto en la carpeta sin comprimirlo (Por lo cual lo monto comprimido)
+# Final-Scripting-Plataformas
+Final del curso de Scripting
 Repositorio de un proyecto de dungeon plataforma
 Qué tiene el alfa:
 - Enemy
@@ -26,3 +26,7 @@ hay 1 monstruo que no muere y no se mueve sin embargo si se le toca perderá tod
 
 Bugs:
 en ocasiones el personaje no puede saltar en este caso devuélvase a la plataforma anterior y podrá volver a saltar
+
+
+Recursos:
+https://0x72.itch.io/dungeontileset-ii
