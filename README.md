@@ -29,4 +29,5 @@ en ocasiones el personaje no puede saltar en este caso devuélvase a la platafor
 
 
 Recursos:
-https://0x72.itch.io/dungeontileset-ii
+- https://0x72.itch.io/dungeontileset-ii
+- https://www.fesliyanstudios.com/royalty-free-music/downloads-c/8-bit-music/6
