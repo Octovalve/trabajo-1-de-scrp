@@ -13,6 +13,7 @@ public class Salto : MonoBehaviour
         if (player != null)
         {
             player.jumpforce = player.jumpforce + valor ;
+            player.t = 3;
             Destroy(gameObject);
         }
     }

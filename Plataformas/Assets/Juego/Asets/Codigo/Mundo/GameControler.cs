@@ -80,7 +80,7 @@ public class GameControler : MonoBehaviour
         {
             textVida.text = vidaString + "   " + vida.ToString();
         }
-        if (Input.GetKey(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (pausado == false)
             {

@@ -11,8 +11,9 @@ public class Player : MonoBehaviour
     public int maxvida;
     public float maxJump;
     public float maxSpid;
-    
-    float t = 3;
+    public float t = 3;
+
+    float Puedesaltar = 1;
     private SpriteRenderer sr;
     private bool jump = true;
     private Rigidbody2D rb;
@@ -48,19 +49,24 @@ public class Player : MonoBehaviour
             rb.AddForce(Vector2.up * jumpforce, ForceMode2D.Impulse);
             jump = false;
         }
-        if(jump == false)
-        {
-            t -= Time.deltaTime;
-            if (t <= 0) { jump = true;t = 3; }
-        }
+        
         PlayerPrefs.SetInt("Monedas", monedas);
         PlayerPrefs.SetInt("VidaMax", maxvida);
+        Debug.LogError(jump);
     }
-    void OnCollisionEnter2D(Collision2D collision)
+    /*void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "Ppiso" )
         {
             jump = true;
+        }
+    }*/
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (jump == false)
+        {
+            Puedesaltar -= Time.deltaTime;
+            if (Puedesaltar <= 0) { jump = true; Puedesaltar = 0.1f; }
         }
     }
 }
