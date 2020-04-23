@@ -52,7 +52,7 @@ public class Player : MonoBehaviour
         
         PlayerPrefs.SetInt("Monedas", monedas);
         PlayerPrefs.SetInt("VidaMax", maxvida);
-        Debug.LogError(jump);
+        
     }
     /*void OnCollisionEnter2D(Collision2D collision)
     {

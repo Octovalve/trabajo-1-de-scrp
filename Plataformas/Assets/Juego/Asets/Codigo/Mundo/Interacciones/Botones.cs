@@ -24,7 +24,7 @@ public class Botones : MonoBehaviour
         Debug.Log(player);
         if (player != null && jugador.monedas >= valor)
         {
-            //Debug.Log("Comprado");
+            
             jugador.monedas = jugador.monedas - valor;
             Instantiate(objeto, spawn.transform.position, spawn.transform.rotation);
         }
